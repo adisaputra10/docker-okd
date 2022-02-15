@@ -5,7 +5,7 @@ LABEL Maintainer="Adi Saputra"
 WORKDIR /var/www/html
 
 # Install packages and remove default server definition
-RUN apk add --no-cache \
+RUN apk  add --no-cache \
   curl \
   nginx \
   php8 \
